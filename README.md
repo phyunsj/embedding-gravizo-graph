@@ -8,14 +8,6 @@ A simple way of describing graphs and include it easily in your web for free, bl
 - [Sequence Diagram Example](http://plantuml.com/sequence-diagram)
 - :bangbang:[Having trouble using Gravizo? Cheat the system](https://gist.github.com/svenevs/ce05761128e240e27883e3372ccd4ecd):bangbang:
 
-```
- $ python
-Type "help", "copyright", "credits" or "license" for more information.
->>> raw = '''  INSERT YOUR SEQUENCE DIAGRAM    '''
->>> import urllib
->>> urllib.quote(raw)
-' ... USE THIS OUTPUT FOR GITHUB README ...'
-```
 
 ## Example
 
@@ -72,7 +64,18 @@ end ref;
 )
 ```
 
-convert `@startuml;...@enduml` with `urllib.quote()` and insert  between `![Alt text](https://g.gravizo.com/svg?' and `)`.
+:clap: Credit to [**Stephen McDowell**](https://gist.github.com/svenevs/ce05761128e240e27883e3372ccd4ecd) for this guide.
+
+```
+ $ python
+Type "help", "copyright", "credits" or "license" for more information.
+>>> raw = '''  INSERT YOUR SEQUENCE DIAGRAM    '''
+>>> import urllib
+>>> urllib.quote(raw)
+' ... USE THIS OUTPUT FOR GITHUB README ...'
+```
+
+Basically, convert `@startuml;...@enduml` with `urllib.quote()` and insert  between `![Alt text](https://g.gravizo.com/svg?` and `)`.
 
 
 #### 2. Diagram Graph
