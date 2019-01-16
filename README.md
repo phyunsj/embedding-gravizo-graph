@@ -1,12 +1,12 @@
 # What is [Gravizo](http://www.gravizo.com/)?
 
-A simple way of describing graphs and include it easily in your web for free, blog, markdown page, github, and any location where remote images can be showed. Gravizo uses Graphviz to render graphs. It supports DOT, PlantUML, UMLGraph syntax and SVG in JSON format. It will include other formats in the future. No javascript, no plugins needed so you can include in any document. from _http://www.gravizo.com_
+A simple way of describing graphs and include it easily in your web for free, blog, markdown page, github, and any location where remote images can be showed. Gravizo uses Graphviz to render graphs. It supports DOT, PlantUML, UMLGraph syntax and SVG in JSON format. It will include other formats in the future. No javascript, no plugins needed so you can include in any document. ... from _http://www.gravizo.com_
 
 ## Related Posts
 
 - [How to include graphviz graphs in github README](https://github.com/TLmaK0/gravizo)
 - [Sequence Diagram Example](http://plantuml.com/sequence-diagram)
-- :bangbang:[Having trouble using Gravizo? Cheat the system](https://gist.github.com/svenevs/ce05761128e240e27883e3372ccd4ecd):bangbang:
+- :exclamation: [Having trouble using Gravizo? Cheat the system](https://gist.github.com/svenevs/ce05761128e240e27883e3372ccd4ecd) :exclamation:
 
 
 ## Example
